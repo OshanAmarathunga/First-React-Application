@@ -22,7 +22,7 @@ public class ProductController {
 
     @GetMapping("/product/{id}")
     public ResponseEntity<Product> getProduct(@PathVariable int id){
-        Product product=productService.getProduct(id);
+        Product product=productService.getProduct(id); // validation
         if(product==null){
             return ResponseEntity.status(404).build();
         }else {
@@ -31,7 +31,7 @@ public class ProductController {
     }
 
     @PostMapping("/product")
-    public ResponseEntity<Product> creareProduct(@RequestBody Product product){
+    public ResponseEntity<Product> createProduct(@RequestBody Product product){ // changed the name
         Product savedProduct=productService.createProduct(product);
         if(product==null){
             return ResponseEntity.status(404).build();
