@@ -9,13 +9,9 @@ import java.util.List;
 @Service
 public interface UserService {
     List<User> getAllUsers();
-
     User getUser(int id);
-
-    User updateUser(User user);
-
-    boolean deleteUser(User user);
-
+    User updateUser(int id,User user);
+    void deleteUser(int id);
     User saveUser( User user);
 
 
