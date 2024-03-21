@@ -14,12 +14,19 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
+
     @Column(nullable = false)
-        private String productName;
+    private String productName;
 
     @Column(nullable = false)
     private double price;
 
     @Column(nullable = false)
     private int qty;
+
+    @ManyToOne
+    @JoinColumn(name = "categoryId")
+    private Category category;
+
+
 }
