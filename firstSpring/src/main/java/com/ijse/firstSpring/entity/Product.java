@@ -1,7 +1,10 @@
 package com.ijse.firstSpring.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
+
+import java.util.List;
 
 @Entity
 @Getter
@@ -27,6 +30,10 @@ public class Product {
     @ManyToOne
     @JoinColumn(name = "categoryId")
     private Category category;
+
+    @JsonIgnore
+    @ManyToMany(mappedBy = "orderProducts")
+    private List<Order> orders;
 
 
 }
