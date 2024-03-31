@@ -10,5 +10,6 @@ public interface OrderService {
     Order getOrderById(int id);
     Order createOrder(Order order);
     Order addProductToOrder(int orderId,int productId, int quantity);
+    Order removeProductFromOrder(int orderId,int productID);
 
 }

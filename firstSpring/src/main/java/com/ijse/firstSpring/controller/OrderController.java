@@ -44,6 +44,11 @@ public class OrderController {
         return orderService.addProductToOrder(orderId,dto.getProductId(),dto.getQuantity());
     }
 
+    @DeleteMapping("orders/{orderId}/product/{productId}")
+    public Order removeProductFromOrder(@PathVariable int orderId,@PathVariable int productId){
+        return orderService.removeProductFromOrder(orderId,productId);
+    }
+
 
 
 }

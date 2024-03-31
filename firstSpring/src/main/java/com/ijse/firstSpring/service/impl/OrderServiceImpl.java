@@ -48,4 +48,20 @@ public class OrderServiceImpl implements OrderService {
         order.setTotalPrice(order.getTotalPrice()+product.getPrice()*quantity);
         return orderRepository.save(order);
     }
+
+    @Override
+    public Order removeProductFromOrder(int orderId, int productID) {
+        Order order=orderRepository.findById(orderId).orElse(null);
+        if(order==null){
+            return null;
+        }
+        Product product=productRepository.findById(productID).orElse(null);
+        if(product==null){
+            return null;
+        }
+
+        order.getOrderProducts().remove(product);
+        order.setTotalPrice(order.getTotalPrice()-product.getPrice());
+        return orderRepository.save(order);
+    }
 }
