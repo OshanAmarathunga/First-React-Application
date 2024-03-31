@@ -54,6 +54,24 @@ public class ProductController {
         }
     }
 
+    @PutMapping("/product/{id}")
+    public ResponseEntity<Product> updateProduct(@PathVariable int id, @RequestBody ProductDto dto){
+        Product product=new Product();
+        product.setProductName(dto.getName());
+        product.setPrice(dto.getPrice());
+        product.setQty(dto.getQuantity());
+
+        Category category=categoryService.getCategory(dto.getCategoryId());
+        product.setCategory(category);
+        Product updatedProduct=productService.updateProduct(id,product);
+
+        if (updatedProduct!=null){
+            return ResponseEntity.status(200).body(updatedProduct);
+        }else {
+            return ResponseEntity.status(404).body(null);
+        }
+    }
+
 
 
 }

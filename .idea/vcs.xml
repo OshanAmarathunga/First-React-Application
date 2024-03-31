@@ -2,9 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
- category
 
     <mapping directory="$PROJECT_DIR$/pro1" vcs="Git" />
- main
+
+
+    <mapping directory="$PROJECT_DIR$/pro1" vcs="Git" />
+ 
   </component>
 </project>
