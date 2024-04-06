@@ -49,6 +49,11 @@ public class OrderController {
         return orderService.removeProductFromOrder(orderId,productId);
     }
 
+    @PutMapping("order/{orderId}")
+    public Order updateOderStatus(@PathVariable int orderId){
+        return orderService.updateOrderStatus(orderId);
+    }
+
 
 
 }

@@ -71,6 +71,10 @@ public class ProductController {
             return ResponseEntity.status(404).body(null);
         }
     }
+    @DeleteMapping("/product/{productId}")
+    public void deleteProduct(@PathVariable int productId){
+        productService.DeleteProduct(productId);
+    }
 
 
 

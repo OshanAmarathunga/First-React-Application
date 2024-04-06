@@ -64,4 +64,14 @@ public class OrderServiceImpl implements OrderService {
         order.setTotalPrice(order.getTotalPrice()-product.getPrice());
         return orderRepository.save(order);
     }
+
+    @Override
+    public Order updateOrderStatus(int orderId) {
+        Order order=orderRepository.findById(orderId).orElse(null);
+        if(order==null){
+            return null;
+        }
+        order.setOrderStatus(1);
+       return orderRepository.save(order);
+    }
 }

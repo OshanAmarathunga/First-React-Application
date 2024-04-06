@@ -23,6 +23,7 @@ public class Order {
     private double totalPrice;
 
     private LocalDateTime orderDateTime;
+    private int orderStatus;
 
     @ManyToMany
     @JoinTable(

@@ -7,16 +7,19 @@
     <list default="true" id="f80d1d29-0b15-4d37-afe2-b07b3e980f34" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/entity/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pro1" beforeDir="false" afterPath="$PROJECT_DIR$/pro1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro1/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro1/src/component/product/Order.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/component/order/Order.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro1/src/component/order/EditOrder.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/component/order/EditOrder.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro1/src/component/order/Order.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/component/order/Order.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro1/src/component/order/editOrder.css" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/component/order/editOrder.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro1/src/component/order/order.css" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/component/order/order.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro1/src/component/product/Product.css" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/component/product/Product.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pro1/src/component/product/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/component/product/Product.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro1/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,33 +61,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.FirstSpringApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Dell/Desktop/IJSE/Spring Boot/Class Project",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.FirstSpringApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/Desktop/IJSE/Spring Boot/My React Application&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\Desktop\IJSE\Spring Boot\My React Application\pro1\src\component\order" />
@@ -124,6 +127,8 @@
       <workItem from="1711530591983" duration="19000" />
       <workItem from="1711852814261" duration="16548000" />
       <workItem from="1711894445305" duration="106000" />
+      <workItem from="1712381962946" duration="9130000" />
+      <workItem from="1712395660454" duration="2713000" />
     </task>
     <servers />
   </component>
