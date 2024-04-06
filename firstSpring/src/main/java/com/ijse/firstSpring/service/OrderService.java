@@ -12,4 +12,6 @@ public interface OrderService {
     Order addProductToOrder(int orderId,int productId, int quantity);
     Order removeProductFromOrder(int orderId,int productID);
 
+    Order updateOrderStatus(int orderId);
+
 }

@@ -10,6 +10,7 @@ public interface ProductService {
     Product getProduct(int id);
     Product createProduct(Product product);
     Product updateProduct(int id,Product product);
+    void DeleteProduct(int productId);
 
 
 }
