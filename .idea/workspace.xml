@@ -5,20 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f80d1d29-0b15-4d37-afe2-b07b3e980f34" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e43fa63aecd2127be034b3fb9d4caa172275714" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/39430157fd2e543c5c47edb2f35281784d9fa531" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b2acb4dc1c407cd13ee35ea7302d1db455369df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8bb851764ba14aa154d4d044f2e546e1781d278" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa08a0e8c6a7eccc48054f64e05c4a5e35b69063" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b084af8e6fe555d6994fc62fdb7dfbd70518e461" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6f983963e4ed2d2a520eacee05740428d4b63d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/e/1e43fa63aecd2127be034b3fb9d4caa172275714" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/9/39430157fd2e543c5c47edb2f35281784d9fa531" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/b/7b2acb4dc1c407cd13ee35ea7302d1db455369df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/8/a8bb851764ba14aa154d4d044f2e546e1781d278" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/a/aa08a0e8c6a7eccc48054f64e05c4a5e35b69063" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/0/b084af8e6fe555d6994fc62fdb7dfbd70518e461" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/6/c6f983963e4ed2d2a520eacee05740428d4b63d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstSpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/java/com/ijse/firstSpring/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstSpring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/firstSpring/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pro1" beforeDir="false" afterPath="$PROJECT_DIR$/pro1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro1/src/component/order/EditOrder.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/component/order/EditOrder.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro1/src/component/order/Order.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/component/order/Order.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro1/src/component/order/editOrder.css" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/component/order/editOrder.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro1/src/component/order/order.css" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/component/order/order.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro1/src/component/product/Product.css" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/component/product/Product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro1/src/component/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/component/home/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pro1/src/component/product/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pro1/src/component/product/Product.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,14 +41,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JSX File" />
         <option value="CSS File" />
+        <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pro1" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -129,6 +141,10 @@
       <workItem from="1711894445305" duration="106000" />
       <workItem from="1712381962946" duration="9130000" />
       <workItem from="1712395660454" duration="2713000" />
+      <workItem from="1712457118418" duration="1433000" />
+      <workItem from="1712458721225" duration="13347000" />
+      <workItem from="1713667893377" duration="11612000" />
+      <workItem from="1713765483689" duration="24000" />
     </task>
     <servers />
   </component>
