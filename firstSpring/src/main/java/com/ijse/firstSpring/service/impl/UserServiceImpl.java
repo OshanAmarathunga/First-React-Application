@@ -4,6 +4,7 @@ import com.ijse.firstSpring.entity.User;
 import com.ijse.firstSpring.repository.UserRepository;
 import com.ijse.firstSpring.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -14,6 +15,9 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserRepository userRepository;
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
     @Override
     public List<User> getAllUsers() {
         return userRepository.findAll();
@@ -28,7 +32,7 @@ public class UserServiceImpl implements UserService {
     public User updateUser(int id,User user) {
         User findUser=userRepository.findById(id).orElse(null);
         if(findUser!=null){
-            findUser.setUserName(user.getUserName());
+            findUser.setUsername(user.getUsername());
             findUser.setEmail(user.getEmail());
             findUser.setPassword(user.getPassword());
 
@@ -46,6 +50,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User saveUser(User user) {
+       user.setPassword(passwordEncoder.encode(user.getPassword()));
        return userRepository.save(user);
     }
 
